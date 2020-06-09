@@ -1,0 +1,7 @@
+* * * * * echo "HELLO" >> 1.c
+*/2 * * * * echo "SECOND" >> 2.c
+*/10 * * * * echo "Ten" >> 3.c
+* * * * * echo "LSP" >> 1.c
+* * * * * echo "GOOD" >> 1.c
+0 0,12 */2 * * echo "every two days at 0am, 12am" >> 3.c
+0 1 * * * echo "every 1am" >> 3.c
